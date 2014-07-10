@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "flex-grow"
   ],
   "css-flex-grow": {
     "type": "git",
