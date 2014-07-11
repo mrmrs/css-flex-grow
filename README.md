@@ -25,7 +25,7 @@ or download the css on github and include in your project.
 .fg-4 { flex-grow: 4; }
 .fg-i { flex-grow: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .fg-1-ns { flex-grow: 1; }
   .fg-2-ns { flex-grow: 2; }
   .fg-3-ns { flex-grow: 3; }
@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .fg-i-ns { flex-grow: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .fg-1-m { flex-grow: 1; }
   .fg-2-m { flex-grow: 2; }
   .fg-3-m { flex-grow: 3; }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .fg-i-m { flex-grow: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .fg-1-l { flex-grow: 1; }
   .fg-2-l { flex-grow: 2; }
   .fg-3-l { flex-grow: 3; }
