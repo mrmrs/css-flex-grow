@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-flex-grow)
 ## File Size
 
 734B flex-grow.css
-553B flex-grow.min.css
+553B flex-grow.min.css 
+179B minified and gzipped
 
 ## The Code
 ```
