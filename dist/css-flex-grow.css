@@ -1,30 +1,85 @@
-/*
-   FLEX GROW
-*/
-.fg-1 { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
-.fg-2 { -webkit-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2; }
-.fg-3 { -webkit-box-flex: 3; -ms-flex-positive: 3; flex-grow: 3; }
-.fg-4 { -webkit-box-flex: 4; -ms-flex-positive: 4; flex-grow: 4; }
-.fg-i { -webkit-box-flex: inherit; -ms-flex-positive: inherit; flex-grow: inherit; }
-@media screen and (min-width: 48em) {
- .fg-1-ns { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
- .fg-2-ns { -webkit-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2; }
- .fg-3-ns { -webkit-box-flex: 3; -ms-flex-positive: 3; flex-grow: 3; }
- .fg-4-ns { -webkit-box-flex: 4; -ms-flex-positive: 4; flex-grow: 4; }
- .fg-i-ns { -webkit-box-flex: inherit; -ms-flex-positive: inherit; flex-grow: inherit; }
-}
-@media screen and (min-width:48em) and (max-width: 64em) {
- .fg-1-m { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
- .fg-2-m { -webkit-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2; }
- .fg-3-m { -webkit-box-flex: 3; -ms-flex-positive: 3; flex-grow: 3; }
- .fg-4-m { -webkit-box-flex: 4; -ms-flex-positive: 4; flex-grow: 4; }
- .fg-i-m { -webkit-box-flex: inherit; -ms-flex-positive: inherit; flex-grow: inherit; }
-}
-@media screen and (min-width: 64em) {
- .fg-1-l { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
- .fg-2-l { -webkit-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2; }
- .fg-3-l { -webkit-box-flex: 3; -ms-flex-positive: 3; flex-grow: 3; }
- .fg-4-l { -webkit-box-flex: 4; -ms-flex-positive: 4; flex-grow: 4; }
- .fg-i-l { -webkit-box-flex: inherit; -ms-flex-positive: inherit; flex-grow: inherit; }
+.fg-1 {
+  flex-grow: 1;
 }
 
+.fg-2 {
+  flex-grow: 2;
+}
+
+.fg-3 {
+  flex-grow: 3;
+}
+
+.fg-4 {
+  flex-grow: 4;
+}
+
+.fg-i {
+  flex-grow: inherit;
+}
+
+@media screen and (width >= 48em) {
+  .fg-1-s {
+    flex-grow: 1;
+  }
+
+  .fg-2-s {
+    flex-grow: 2;
+  }
+
+  .fg-3-s {
+    flex-grow: 3;
+  }
+
+  .fg-4-s {
+    flex-grow: 4;
+  }
+
+  .fg-i-s {
+    flex-grow: inherit;
+  }
+}
+
+@media screen and (width >= 48em) and (width <= 64em) {
+  .fg-1-m {
+    flex-grow: 1;
+  }
+
+  .fg-2-m {
+    flex-grow: 2;
+  }
+
+  .fg-3-m {
+    flex-grow: 3;
+  }
+
+  .fg-4-m {
+    flex-grow: 4;
+  }
+
+  .fg-i-m {
+    flex-grow: inherit;
+  }
+}
+
+@media screen and (width >= 64em) {
+  .fg-1-l {
+    flex-grow: 1;
+  }
+
+  .fg-2-l {
+    flex-grow: 2;
+  }
+
+  .fg-3-l {
+    flex-grow: 3;
+  }
+
+  .fg-4-l {
+    flex-grow: 4;
+  }
+
+  .fg-i-l {
+    flex-grow: inherit;
+  }
+}
