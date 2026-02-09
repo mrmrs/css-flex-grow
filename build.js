@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-flex-grow.css');
+const srcFile = path.join(__dirname, 'src', 'flex-grow.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-flex-grow.css',
+  filename: 'flex-grow.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-flex-grow.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'flex-grow.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-flex-grow.css',
+  filename: 'flex-grow.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-flex-grow.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'flex-grow.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-flex-grow.css     ${unminified.length} bytes`);
-console.log(`  dist/css-flex-grow.min.css ${minified.length} bytes`);
+console.log(`  dist/flex-grow.css     ${unminified.length} bytes`);
+console.log(`  dist/flex-grow.min.css ${minified.length} bytes`);
