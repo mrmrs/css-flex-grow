@@ -1,38 +1,44 @@
 {
   "name": "css-flex-grow",
-  "style": "flex-grow.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-flex-grow",
-  "description": "Css module of single purpose classes for flex grow",
+  "version": "2.0.0",
+  "description": "Functional CSS for flex-grow",
+  "style": "dist/flex-grow.css",
+  "main": "dist/flex-grow.css",
+  "exports": {
+    ".": "./dist/flex-grow.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "flex-grow"
+    "flex-grow",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-flex-grow": {
+  "homepage": "https://github.com/mrmrs/css-flex-grow",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-flex-grow.git"
+    "url": "https://github.com/mrmrs/css-flex-grow.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-flex-grow/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-flex-grow/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
