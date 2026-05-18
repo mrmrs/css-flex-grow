@@ -6,8 +6,8 @@ Functional CSS for flex-grow
 
 | File | Size |
 |------|------|
-| `dist/flex-grow.css` | 1269 bytes |
-| `dist/flex-grow.min.css` | 877 bytes (192 Gzipped) |
+| `dist/flex-grow.css` | 797 bytes |
+| `dist/flex-grow.min.css` | 513 bytes (163 Gzipped) |
 
 ## Install
 
@@ -39,34 +39,26 @@ npm install css-flex-grow
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.flex-grow1` | `flex-grow: .25;` |
-| `.flex-grow2` | `flex-grow: .5;` |
-| `.flex-grow3` | `flex-grow: 1;` |
-| `.flex-grow4` | `flex-grow: 2;` |
-| `.flex-grow5` | `flex-grow: 3;` |
-| `.flex-grow6` | `flex-grow: 4;` |
-| `.flex-grow-inherit` | `flex-grow: inherit;` |
-| `.flex-grow1-s` | `flex-grow: .25;` |
-| `.flex-grow2-s` | `flex-grow: .5;` |
-| `.flex-grow3-s` | `flex-grow: 1;` |
-| `.flex-grow4-s` | `flex-grow: 2;` |
-| `.flex-grow5-s` | `flex-grow: 3;` |
-| `.flex-grow6-s` | `flex-grow: 4;` |
-| `.flex-grow-inherit-s` | `flex-grow: inherit;` |
-| `.flex-grow1-m` | `flex-grow: .25;` |
-| `.flex-grow2-m` | `flex-grow: .5;` |
-| `.flex-grow3-m` | `flex-grow: 1;` |
-| `.flex-grow4-m` | `flex-grow: 2;` |
-| `.flex-grow5-m` | `flex-grow: 3;` |
-| `.flex-grow6-m` | `flex-grow: 4;` |
-| `.flex-grow-inherit-m` | `flex-grow: inherit;` |
-| `.flex-grow1-l` | `flex-grow: .25;` |
-| `.flex-grow2-l` | `flex-grow: .5;` |
-| `.flex-grow3-l` | `flex-grow: 1;` |
-| `.flex-grow4-l` | `flex-grow: 2;` |
-| `.flex-grow5-l` | `flex-grow: 3;` |
-| `.flex-grow6-l` | `flex-grow: 4;` |
-| `.flex-grow-inherit-l` | `flex-grow: inherit;` |
+| `.fg-1` | `flex-grow: 1;` |
+| `.fg-2` | `flex-grow: 2;` |
+| `.fg-3` | `flex-grow: 3;` |
+| `.fg-4` | `flex-grow: 4;` |
+| `.fg-i` | `flex-grow: inherit;` |
+| `.fg-1-s` | `flex-grow: 1;` |
+| `.fg-2-s` | `flex-grow: 2;` |
+| `.fg-3-s` | `flex-grow: 3;` |
+| `.fg-4-s` | `flex-grow: 4;` |
+| `.fg-i-s` | `flex-grow: inherit;` |
+| `.fg-1-m` | `flex-grow: 1;` |
+| `.fg-2-m` | `flex-grow: 2;` |
+| `.fg-3-m` | `flex-grow: 3;` |
+| `.fg-4-m` | `flex-grow: 4;` |
+| `.fg-i-m` | `flex-grow: inherit;` |
+| `.fg-1-l` | `flex-grow: 1;` |
+| `.fg-2-l` | `flex-grow: 2;` |
+| `.fg-3-l` | `flex-grow: 3;` |
+| `.fg-4-l` | `flex-grow: 4;` |
+| `.fg-i-l` | `flex-grow: inherit;` |
 
 ### Responsive
 
@@ -78,7 +70,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.flex-grow1-m` applies the property at the medium breakpoint and above.
+Example: `.fg-1-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
